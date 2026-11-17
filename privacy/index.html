@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PhotoClean Privacy Policy</title>
+<meta name="description" content="How PhotoClean handles your photos and data: processed on your iPhone, no account, no analytics.">
+<style>
+:root { --bg:#fbf8f6; --fg:#1d1a1f; --muted:#6b6470; --accent:#e8643f; --card:#ffffff; --line:#ece6e2; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg:#141116; --fg:#f2eef3; --muted:#a69faa; --accent:#ff8f61; --card:#1e1a21; --line:#2e2932; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; -webkit-text-size-adjust:100%; }
+main { max-width:720px; margin:0 auto; padding:56px 20px 80px; }
+header { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+header img { width:56px; height:56px; border-radius:13px; box-shadow:0 4px 14px rgba(0,0,0,.15); }
+h1 { font-size:34px; line-height:1.15; margin:0; letter-spacing:-.02em; }
+h2 { font-size:21px; margin:40px 0 8px; letter-spacing:-.01em; }
+p, li { color:var(--fg); }
+em { color:var(--muted); font-style:normal; }
+a { color:var(--accent); }
+ul { padding-left:22px; } li { margin:6px 0; }
+.table { overflow-x:auto; margin:16px 0; border:1px solid var(--line); border-radius:14px; background:var(--card); }
+table { border-collapse:collapse; width:100%; font-size:15px; }
+th, td { text-align:left; vertical-align:top; padding:12px 14px; border-bottom:1px solid var(--line); }
+th { font-size:13px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); }
+tr:last-child td { border-bottom:0; }
+td:first-child { white-space:nowrap; }
+@media (max-width:520px) { td:first-child { white-space:normal; } h1 { font-size:28px; } }
+</style>
+</head>
+<body>
+<main>
+<header><img src="../icon.png" alt="" width="56" height="56"></header>
+<h1>PhotoClean Privacy Policy</h1>
+<p><em>Last updated: November 18, 2026</em></p>
+<p>PhotoClean sorts your photo library and turns screenshots into actions on your iPhone. It has no account, no servers of its own, and no analytics or advertising. We, the developer, never receive your photos, screenshots, the text in them, or anything PhotoClean learns about them.</p>
+<p>This policy explains what PhotoClean reads, what it stores on your device, and the few cases where Apple's own services are involved.</p>
+<h2>What PhotoClean reads, and why</h2>
+<p>PhotoClean asks for each permission only when it needs it. You can change any of them in <strong>Settings → PhotoClean</strong> on your iPhone.</p>
+<div class="table"><table><thead><tr><th>Permission</th><th>What PhotoClean does with it</th></tr></thead><tbody><tr><td><strong>Photos</strong> (full or limited access)</td><td>Reads your photos and screenshots to sort them. It creates albums and folders of its own and adds photos to them. It writes captions for screenshots you keep as receipts or ideas. It never changes or removes albums you made. It deletes photos only when you confirm in the iOS prompt, and those go to Recently Deleted.</td></tr><tr><td><strong>Calendar</strong> (add events only)</td><td>Adds an event when you accept an event suggestion. It can't read your existing events.</td></tr><tr><td><strong>Reminders</strong></td><td>Creates a reminder when you accept a reminder suggestion.</td></tr><tr><td><strong>Contacts</strong></td><td>Saves a contact when you accept a contact suggestion.</td></tr><tr><td><strong>Notifications</strong> (optional)</td><td>Sends at most one reminder in the evening about screenshots from that day. You can turn it off in PhotoClean's Settings.</td></tr></tbody></table></div>
+<p>When you accept a link, PhotoClean adds it to Safari's Reading List. When you accept a place, it opens Apple Maps.</p>
+<h2>Processing happens on your iPhone</h2>
+<p>Classifying photos, reading the text in screenshots, and suggesting actions are done on your device. PhotoClean uses Apple's on-device frameworks (Vision, and Apple Intelligence's on-device model where your iPhone supports it). The images and their text are not sent to us or to any third party for this.</p>
+<h2>When Apple's services are involved</h2>
+<p>PhotoClean doesn't run any servers, but two features rely on Apple:</p>
+<ul><li><strong>Place names for albums.</strong> To name albums like "Sat, Mar 7 · Brooklyn", PhotoClean asks Apple Maps for the name of the area where a photo was taken. Only a rounded area of about 5 km is sent, never a photo's exact location. No image or other photo data is included. Apple handles these requests under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</li><li><strong>iCloud Photos.</strong> If your library is in iCloud Photos and the original isn't on your iPhone, iOS may download it from your own iCloud account so PhotoClean can look at it, the same way the Photos app does.</li></ul>
+<h2>What PhotoClean stores, and where</h2>
+<p>PhotoClean keeps a small database inside the app on your iPhone. It holds:</p>
+<ul><li>the bucket and album each photo was sorted into, and its date and approximate place</li><li>for screenshots: the text read from them, the suggested action and what you decided</li><li>corrections you've made, so it can learn your preferences, which you can review and delete in <strong>Settings → Diagnostics</strong></li><li>simple counts used for the statistics in Diagnostics (for example, how many suggestions you accepted). These are computed and kept on your iPhone only.</li></ul>
+<p>The Home Screen widget shows only the number of waiting screenshots and their types, which the app shares with the widget on your device.</p>
+<p>This data is backed up with the rest of your iPhone's app data, to iCloud or your computer, if you have device backups turned on. Deleting PhotoClean removes this data from your iPhone. Albums PhotoClean created stay in the Photos app until you delete them there.</p>
+<h2>What we collect</h2>
+<p>Nothing. PhotoClean contains no analytics, advertising or tracking code and doesn't create an account.</p>
+<p>If you choose to share them, Apple may give us crash reports and feedback you send through <strong>TestFlight</strong> (during the beta) or through the App Store. These are handled under Apple's terms. We use them only to fix problems.</p>
+<h2>Children</h2>
+<p>PhotoClean isn't directed at children under 13 and doesn't knowingly collect information from anyone.</p>
+<h2>Changes</h2>
+<p>If this policy changes, we'll update the date above and describe the change in the app's release notes.</p>
+<h2>Contact</h2>
+<p>During the beta, send questions about privacy with the <strong>Send Beta Feedback</strong> option in the TestFlight app. A contact email will be added here before PhotoClean is released on the App Store.</p>
+</main>
+</body>
+</html>
